@@ -2,7 +2,6 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 import time
-result = "Positive" if x > 0 else "Non-positive"
 # url = 'https://www.myminipwny.xyz/'
 for i in range(2, 751):
     url = 'https://www.myminipwny.xyz/' if i == 1 else f'https://www.myminipwny.xyz/?wpv_aux_current_post_id=888&wpv_aux_parent_post_id=888&wpv_view_count=886&wpv_paged={i}'
